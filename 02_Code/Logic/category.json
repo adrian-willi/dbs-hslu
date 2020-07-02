@@ -1,0 +1,161 @@
+[
+  {
+    "_id": 1,
+    "name": "FILM & ANIMATION"
+  },
+
+  {
+    "_id": 2,
+    "name": "AUTOS & VEHICLES"
+  },
+
+  {
+    "_id": 10,
+    "name": "MUSIC"
+  },
+
+  {
+    "_id": 15,
+    "name": "PETS &ANIMALS"
+  },
+
+  {
+    "_id": 17,
+    "name": "SPORTS"
+  },
+
+  {
+    "_id": 18,
+    "name": "SHORT & MOVIES"
+  },
+
+  {
+    "_id": 19,
+    "name": "TRAVEL & EVENTS"
+  },
+
+  {
+    "_id": 20,
+    "name": "GAMING"
+  },
+
+  {
+    "_id": 21,
+    "name": "VIDEOBLOGGING"
+  },
+
+  {
+    "_id": 22,
+    "name": "PEOPLE & BLOGS"
+  },
+
+  {
+    "_id": 23,
+    "name": "COMEDY"
+  },
+
+  {
+    "_id": 24,
+    "name": "ENTERTAINMENT"
+  },
+
+  {
+    "_id": 25,
+    "name": "NEWS & POLITICS"
+  },
+
+  {
+    "_id": 26,
+    "name": "HOWTO & STYLE"
+  },
+
+  {
+    "_id": 27,
+    "name": "EDUCATION"
+  },
+
+  {
+    "_id": 28,
+    "name": "SCIENCE & TECHNOLOGY"
+  },
+
+  {
+    "_id": 29,
+    "name": "NONPROFIT & ACTIVISM"
+  },
+
+  {
+    "_id": 30,
+    "name": "MOVIES"
+  },
+
+  {
+    "_id": 31,
+    "name": "ANIME & ANIMATION"
+  },
+
+  {
+    "_id": 32,
+    "name": "ACTION & ADVENTURE"
+  },
+
+  {
+    "_id": 33,
+    "name": "CLASSICS"
+  },
+
+  {
+    "_id": 34,
+    "name": "COMEDY"
+  },
+
+  {
+    "_id": 35,
+    "name": "DOCUMENTARY"
+  },
+
+  {
+    "_id": 36,
+    "name": "DRAMA"
+  },
+
+  {
+    "_id": 37,
+    "name": "FAMILY"
+  },
+
+  {
+    "_id": 38,
+    "name": "FOREIGN"
+  },
+
+  {
+    "_id": 39,
+    "name": "HORROR"
+  },
+
+  {
+    "_id": 40,
+    "name": "SCIFI & FANTASY"
+  },
+
+  {
+    "_id": 41,
+    "name": "THRILLERS"
+  },
+
+  {
+    "_id": 42,
+    "name": "SHORTS"
+  },
+
+  {
+    "_id": 43,
+    "name": "SHOWS"
+  },
+
+  {
+    "_id": 44,
+    "name": "TRAILERS"
+  }
+]

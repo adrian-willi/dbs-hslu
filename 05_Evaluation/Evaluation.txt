@@ -1,0 +1,82 @@
++----------------+
+|                |
+|   EVALUATION   | 
+|                |
++----------------+
+
+
+
+Views:
+
+	Fragen
+	- Wirken sich Dislikes negativ auf die Views aus? (Haben Videos mit wenig Views verh�ltnism�ssig mehr Dislikes?)
+	- Sind Likes hinsichtlich der Views relevant? (Haben Videos mit viel Views verh�ltnism�ssig mehr Likes?)
+	- Sind Comments hinsichtlich der Views relevant? (Haben Videos mit viel Views verh�ltnism�ssig mehr Comments?)
+	- H�ngen die Views von der Kommentareinstellung ab? (Vergleich Comment allowed vs. disabled)
+
+	Erkenntnis
+	- Was sind die gr�ssten Einflussfaktoren hinsichtlich der View?
+	- Welche Interaktionen (Likes, Dislikes, Comments etc.) bestimmen die Anzahl Views?
+	- Haben Settings Einfluss auf die Views?
+
+
+
+
+
+Categories:
+
+	Fragen
+	- Welche Kategorie hat die meisten Disklikes im Vergleich zu Views?
+	- Welche Kategorie hat die meisten Likes im Vergleich zu Views?
+	- Welche Kategorie hat die meisten Comments im Vergleich zu Views?
+	- Welche Kategorie hat durchschnittlich die meisten Views pro Video?
+	- Welche Kategorie hat das beste Verh�ltnis zwischen Likes und Dislikes?
+	- Haben die Settings einen Einfluss auf die Views innerhalb der Kategorie? (Comments, Ratings disabled?)
+	- In welcher Kategorie werden die meisten Videos hochgeladen?
+	- Ver�ltnis der Konkurrenz und der Views? (K�nnen trotz hoher Konkurrenz viel Views erreicht werden? Aufgrund hoher Nachfrage?)
+	- Finden in Kategorien mit hoher Konkurrenz mehr Interaktionen statt?
+	
+	Erkenntnis
+	- Welche Kategorie hat am meisten mit negativer Kritik zu k�mpfen?
+	- In welcher Kategorie erhalten die Videos durchschnittlich am meisten Views?
+	- In welcher Kategorie findet die gr�sste Interaktion statt? (Kann hinsichtlich Settings relavant sein!)
+	- In welcher Kategorie erh�lt man verh�ltnism�ssig die beste Kritik?
+	- Sind Settings wichtig?
+	- Wie sieht die Konkurrenz hinsichtlich der Kategoriesn aus
+
+
+
+
+	
+Interactions:
+
+	Fragen
+	- In welchem Verh�ltnis stehen Likes zu Dislikes? (Ist beispielsweise ein hoher Grad Dislikes normal?)
+	- Wo findet die h�here Interaktion (Comments) statt, bei Likes oder Disklikes?
+	- Haben Settings Einfluss auf die Interactions?
+
+	Erkenntnis 
+	- In welchem Verh�ltnis stehen Interaktionen zueinander?
+	- Welche Verh�ltnisse sind Norm? (Schlechtes Verh�ltnis kann weniger entmutigen, wenn es die Norm ist)
+
+-------------------------------------------------------------------------------------------------------------
+The main purpose of the aggregation framework is to ease the query of a big number of entries and generate a
+low number of results that hold value to you.
+
+As you have said, you can also use multiple find queries, but remember that you can not create new fields with
+find queries. On the other hand, the $group stage allows you to define your new fields.
+
+If you would like to achieve the functionality of the aggregation framework, you would most likely have to run
+an initial find (or chain several ones), pull that information and further manipulate it with a programming
+language.
+
+The aggregation pipeline might seem to take longer, but at least you know you only have to take into account the
+performance of one system - MongoDB engine.
+
+Whereas, when it comes to manipulating the data returned from a find query, you would most likely have to further
+manipulate the data with a programming language, thus increasing the complexity depending on the intricacies of
+the programming language of choice.
+
+
+
+

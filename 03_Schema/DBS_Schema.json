@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JSON Schema DBS Project",
+  "description": "",
+  "definitions": {
+    "properties": {
+      "videos": {
+        "type": "object",
+        "properties": {
+          "video": {
+            "type": "object",
+            "properties": {
+              "videoID": {
+                "description": "ID of the video",
+                "type": "integer"
+              },
+              "country": {
+                "description": "Country where the video comes from",
+                  "type": "string",
+                  "enum": ["CA", "DE", "FR", "GB", "US"]
+              },
+              "title": {
+                "description": "Title of the video",
+                "type": "string",
+                "minLength": 1
+              },
+              "publish_time": {
+                "description": "Time when the video was published",
+                "type": "string"
+              },
+              "tags": {
+                "description": "Tags related to the video",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "category_id": {
+                "description": "Category id of the video",
+                "type": "integer"
+              },
+              "description": {
+                "description": "Description of the video",
+                "type": "string"
+              },
+              "settings": {
+                "type": "object",
+                "properties": {
+                  "comments_disabled": {
+                    "description": "Is true when comments are disabled",
+                    "type": "boolean"
+                  },
+                  "ratings_disabled": {
+                    "description": "Is true when ratings are disabled",
+                    "type": "boolean"
+                  },
+                  "video_error_or_removed": {
+                    "description": "Is true when videos has errors or was removed.",
+                    "type": "boolean"
+                  }
+                }
+              },
+              "interactions": {
+                "type": "object",
+                "properties": {
+                  "likes": {
+                    "description": "Number of likes of the video",
+                    "type": "integer"
+                  },
+                  "views": {
+                    "description": "Views the video got",
+                    "type": "integer"
+                  },
+                  "comment_count": {
+                    "description": "Number of comments of the video",
+                    "type": "integer"
+                  },
+                  "dislikes": {
+                    "description": "Number of comments of the video",
+                    "type": "integer"
+                  }
+                }
+              },
+              "channel": {
+                "type": "object",
+                "properties": {
+                  "channel_title": {
+                    "description": "Name of the channel",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

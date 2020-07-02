@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}DBS Projekt{% endblock %}
+{% block content %}
+<div class="main">
+  <h1>Selektierte Abfragen</h1>
+    <p>Über das Drop-Down-Menu haben Sie die Möglichkeit, Abfragen zu generieren. Dabei sind sowohl allgemeine als auch kategoriespezifische Auswertungen möglich.</p>
+    <script>
+        var dataFound = {{ dataFound|tojson }};
+        var keys = {{ keys|tojson }};
+        var keyForGraph = {{ keyForGraph|tojson }};
+        var labelForGraph = {{ labelForGraph|tojson }};
+        </script>
+  <form method="POST" action="{{url_for('auswertung')}}">
+      {{ form.csrf_token }}
+      <div class="form-field">{{ form.select.label }} {{ form.select }} <i class="fas fa-caret-down"> </i> </div>
+      {{ form.submit }}
+  </form>
+</div>
+<div class="container">
+        <div class=".col-sm" id="myResultTable"></div>
+        <div class=".col-sm" id="myresult"></div>
+</div>
+
+<script>
+$(document).ready(function() {
+    pieChardFunction();
+    tabulate(dataFound, keys);
+});
+</script>
+
+{% endblock %}

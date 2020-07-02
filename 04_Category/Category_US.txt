@@ -1,0 +1,315 @@
+0:{} 4 items
+	kind:youtube#videoCategory
+	id:1
+	
+	snippet:{} 3 items
+		title:Film & Animation
+		 
+
+
+
+1:{} 4 items
+	kind:youtube#videoCategory
+	id:2
+	
+	snippet:{} 3 items	 
+		title:Autos & Vehicles
+		 
+
+
+
+2:{} 4 items
+	kind:youtube#videoCategory
+	id:10
+	
+	snippet:{} 3 items	 
+		title:Music
+		 
+
+
+
+3:{} 4 items
+	kind:youtube#videoCategory
+	id:15
+	
+	snippet:{} 3 items	 
+		title:Pets & Animals
+		 
+
+
+
+4:{} 4 items
+	kind:youtube#videoCategory
+	id:17
+	
+	snippet:{} 3 items
+		title:Sports
+		 
+
+
+
+5:{} 4 items
+	kind:youtube#videoCategory
+	id:18
+	snippet:{} 3 items	 
+		title:Short Movies
+		 
+
+
+
+6:{} 4 items
+	kind:youtube#videoCategory
+	id:19
+	
+	snippet:{} 3 items	 
+		title:Travel & Events
+		 
+
+
+
+7:{} 4 items
+	kind:youtube#videoCategory
+	id:20
+	
+	snippet:{} 3 items	 
+		title:Gaming
+		 
+
+
+
+8:{} 4 items
+	kind:youtube#videoCategory
+	id:21
+	
+	snippet:{} 3 items	 
+		title:Videoblogging
+		 
+
+
+
+9:{} 4 items
+	kind:youtube#videoCategory
+	id:22
+	
+	snippet:{} 3 items	 
+		title:People & Blogs
+		 
+
+
+
+10:{} 4 items
+	kind:youtube#videoCategory
+	id:23
+
+	snippet:{} 3 items	 
+		title:Comedy
+		 
+
+
+
+11:{} 4 items
+	kind:youtube#videoCategory
+	id:24
+	
+	snippet:{} 3 items	 
+		title:Entertainment
+		 
+
+
+
+12:{} 4 items
+	kind:youtube#videoCategory
+	id:25
+	
+	snippet:{} 3 items	 
+		title:News & Politics
+		 
+
+
+
+13:{} 4 items
+	kind:youtube#videoCategory
+	id:26
+	
+	snippet:{} 3 items	 
+		title:Howto & Style
+		 
+
+
+
+14:{} 4 items
+	kind:youtube#videoCategory
+	id:27
+	
+	snippet:{} 3 items	 
+		title:Education
+		 
+
+
+
+15:{} 4 items
+kind:youtube#videoCategory
+	id:28
+	
+	snippet:{} 3 items	 
+		title:Science & Technology
+		 
+
+
+
+16:{} 4 items
+	kind:youtube#videoCategory
+	id:29
+	
+	snippet:{} 3 items	 
+		title:Nonprofits & Activism
+		 
+
+
+
+17:{} 4 items
+	kind:youtube#videoCategory
+	id:30
+	
+	snippet:{} 3 items	 
+		title:Movies
+		 
+
+
+
+18:{} 4 items
+	kind:youtube#videoCategory
+	id:31
+	
+	snippet:{} 3 items	 
+		title:Anime/Animation
+		 
+
+
+
+19:{} 4 items
+	kind:youtube#videoCategory
+	id:32
+	
+	snippet:{} 3 items	 
+		title:Action/Adventure
+		 
+
+
+
+20:{} 4 items
+	kind:youtube#videoCategory
+	id:33
+	
+	snippet:{} 3 items	 
+		title:Classics
+		 
+
+
+
+21:{} 4 items
+	kind:youtube#videoCategory
+	id:34
+	
+	snippet:{} 3 items	 
+		title:Comedy
+		 
+
+
+
+22:{} 4 items
+	kind:youtube#videoCategory
+	id:35
+	
+	snippet:{} 3 items	 
+		title:Documentary
+		 
+
+
+
+23:{} 4 items
+	kind:youtube#videoCategory
+	id:36
+
+	snippet:{} 3 items	 
+		title:Drama
+		 
+
+
+
+24:{} 4 items
+	kind:youtube#videoCategory
+	id:37
+	
+	snippet:{} 3 items	 
+		title:Family
+		 
+
+
+
+25:{} 4 items
+	kind:youtube#videoCategory
+	id:38
+	
+	snippet:{} 3 items	 
+		title:Foreign
+		 
+
+
+
+26:{} 4 items
+	kind:youtube#videoCategory
+	id:39
+	
+	snippet:{} 3 items	 
+		title:Horror
+		 
+
+
+
+27:{} 4 items
+	kind:youtube#videoCategory
+	id:40
+	
+	snippet:{} 3 items	 
+		title:Sci-Fi/Fantasy
+		 
+
+
+
+28:{} 4 items
+	kind:youtube#videoCategory
+	id:41
+	
+	snippet:{} 3 items	 
+		title:Thriller
+		 
+
+
+
+29:{} 4 items
+	kind:youtube#videoCategory
+	id:42
+	
+	snippet:{} 3 items	 
+		title:Shorts
+		 
+
+
+
+30:{} 4 items
+	kind:youtube#videoCategory
+	id:43
+	
+	snippet:{} 3 items
+		title:Shows
+		 
+
+
+
+31:{} 4 items
+	kind:youtube#videoCategory
+	id:44
+	
+	snippet:{} 3 items
+		title:Trailers

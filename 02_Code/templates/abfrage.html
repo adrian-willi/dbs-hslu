@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}DBS Projekt{% endblock %}
+{% block content %}
+<div class="formwrapper">
+  <h2 class="title">Test</h2>
+  <form method="POST" action="{{url_for('abfrage')}}">
+      {{ form.csrf_token }}
+      <div class="form-field">{{ form.first_name.label }} {{ form.first_name(size=20) }}</div>
+      <div class="form-field">{{ form.last_name.label }} {{ form.last_name(size=20) }}</div>
+      <div class="form-field">{{ form.select.label }} {{ form.select }} <i class="fas fa-caret-down"> </i> </div>
+      {{ form.submit }}
+  </form>
+</div>
+
+<div>
+   <h1> {{ result }} </h1>
+</div>
+
+{% endblock %}
